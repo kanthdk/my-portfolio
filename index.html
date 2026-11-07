@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Divyakanth Tirumalasetty – System Engineer</title>
+<meta name="description" content="System Engineer with nearly 5 years at TCS in L2 production support, Java development and test support for banking, insurance and retail.">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f1b2a;--card:#14263b;--field:#0f1b2a;--line:#25394f;--ink:#e8eef5;--mute:#a3b3c5;--ac:#3dd6c4;--on:#08221f}
+:root[data-theme=light]{--bg:#f3f6fa;--card:#fff;--field:#f3f6fa;--line:#d3dde8;--ink:#12202e;--mute:#4d6076;--ac:#0a7d72;--on:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 'IBM Plex Sans',system-ui,sans-serif}
+a{color:var(--ac)}h1,h2,h3{line-height:1.15;margin:0}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace}
+:focus-visible{outline:3px solid var(--ac);outline-offset:3px}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px}
+header.bar{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-weight:700;font-size:1.5rem;text-decoration:none;color:var(--ink)}
+.icons{display:flex;gap:12px}
+.ib{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:1.1rem;cursor:pointer}
+nav#menu{display:none;border-top:1px solid var(--line);background:var(--bg)}
+nav#menu.open{display:block}
+nav#menu a{display:block;padding:14px 22px;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+nav#menu a:hover{color:var(--ac)}
+.hero{padding:56px 0 40px;display:grid;gap:36px;align-items:center}
+@media(min-width:780px){.hero{grid-template-columns:1fr 300px}.pw{order:2}}
+.eyebrow{color:var(--ac);font-weight:600;font-size:1.15rem;margin:0 0 10px}
+h1{font-size:clamp(2.5rem,9vw,4.2rem);font-weight:700;letter-spacing:-.025em}
+.sub{font-size:1.3rem;color:var(--mute);margin:14px 0 14px;font-weight:500}
+.lead{color:var(--mute);margin:0 0 26px;max-width:58ch}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{padding:13px 22px;border-radius:999px;border:2px solid var(--ink);color:var(--ink);text-decoration:none;font-weight:600}
+.btn.fill{background:var(--ac);border-color:var(--ac);color:var(--on)}
+.links{margin-top:20px;display:flex;gap:22px}
+.pw{width:100%;max-width:300px;aspect-ratio:10/13;border-radius:50%;overflow:hidden;border:6px solid var(--ac);box-shadow:0 0 0 6px var(--bg);background:#14253a;margin:0 auto}
+.pw img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.api{background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;margin:8px 0 56px}
+.api .top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:16px 24px;border-bottom:1px solid var(--line);font-size:.95rem}
+.api .top b{color:var(--ac);font-weight:500}
+.api pre{margin:0;padding:22px 24px;overflow-x:auto;font-size:.95rem;line-height:1.7}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(1.9rem,6vw,2.6rem);margin-bottom:28px;font-weight:700}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px;margin-bottom:20px}
+.card h3{font-size:1.4rem;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none}
+.chips li{font-family:'IBM Plex Mono',monospace;font-size:.9rem;border:1px solid var(--line);background:var(--field);padding:6px 14px;border-radius:10px}
+.org{color:var(--mute);margin:0 0 8px}.when{color:var(--mute);font-size:.9rem;margin:0 0 14px}
+.card ul.pts{margin:0;padding-left:20px}.pts li{margin-bottom:8px}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}.grid .card{margin:0}
+.tag{color:var(--ac);font-size:.85rem;margin-bottom:6px;display:block}
+dl.ct{display:grid;grid-template-columns:auto 1fr;gap:12px 28px;margin:0 0 32px}
+dl.ct dt{font-weight:700}dl.ct dd{margin:0;overflow-wrap:anywhere}
+form{border:1px solid var(--ac);border-radius:22px;padding:24px;background:var(--card)}
+label{display:block;font-weight:500;margin:0 0 6px}
+input,textarea{width:100%;font:inherit;color:var(--ink);background:var(--field);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:18px}
+textarea{min-height:130px;resize:vertical}
+form button{font:inherit;cursor:pointer}
+#up{position:fixed;right:18px;bottom:18px;opacity:0;pointer-events:none;transition:opacity .2s}
+#up.show{opacity:1;pointer-events:auto}
+footer{padding:30px 0 50px;color:var(--mute);font-size:.9rem;border-top:1px solid var(--line)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}#up{transition:none}}
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Home">DT</a>
+    <div class="icons">
+      <button class="ib" id="theme" aria-label="Switch light or dark theme">◐</button>
+      <button class="ib" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰</button>
+    </div>
+  </div>
+  <nav id="menu" aria-label="Sections">
+    <a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#recognition">Recognition</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main class="wrap" id="top">
+  <div class="hero">
+    <div class="pw"><img src="IMG-20261107-WA0007.jpg" alt="Portrait of Divyakanth Tirumalasetty" width="640" height="832"></div>
+    <div>
+      <p class="eyebrow">System Engineer at Tata Consultancy Services</p>
+      <h1>Divyakanth Tirumalasetty</h1>
+      <p class="sub">System Engineer | Production Support and Test Engineering</p>
+      <p class="lead">Nearly 5 years across L2 production support, Java development and test support for banking, insurance and retail clients. I trace failures to their root cause and keep systems running within SLA.</p>
+      <div class="btns">
+        <a class="btn fill" href="#experience">View experience</a>
+        <a class="btn" href="DOC-20261107-WA0006.pdf" download>Download resume</a>
+        <a class="btn" href="#contact">Contact me</a>
+      </div>
+      <div class="links"><a href="https://www.linkedin.com/in/divyakanth-tirumalasetty" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/kanthdk" target="_blank" rel="noopener">GitHub</a></div>
+    </div>
+  </div>
+
+  <div class="api mono">
+    <div class="top"><span>GET /engineers/divyakanth-tirumalasetty</span><b>200 OK</b></div>
+<pre>{
+  "name": "Divyakanth Tirumalasetty",
+  "company": "Tata Consultancy Services",
+  "role": "System Engineer",
+  "experience": "Nearly 5 years",
+  "focus": [
+    "L2 Production Support",
+    "Test Support",
+    "Root Cause Analysis",
+    "Control-M"
+  ],
+  "location": "Hyderabad, India"
+}</pre>
+  </div>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card"><h3>Monitoring and operations</h3><ul class="chips"><li>ServiceNow</li><li>Control-M</li><li>Kibana</li><li>Splunk</li><li>Grafana</li><li>Datadog</li><li>OpenShift</li></ul></div>
+    <div class="card"><h3>Testing</h3><ul class="chips"><li>Sauce Labs</li><li>End-to-end</li><li>Functional</li><li>Regression</li><li>Mainframe validation</li><li>Conversant integrations</li></ul></div>
+    <div class="card"><h3>Development and data</h3><ul class="chips"><li>Core Java</li><li>Python</li><li>HTML</li><li>CSS</li><li>Hadoop</li><li>MySQL</li><li>Power BI</li></ul></div>
+    <div class="card"><h3>Practices and platforms</h3><ul class="chips"><li>Agile</li><li>SRE</li><li>ITIL</li><li>Linux</li><li>Windows</li><li>Tomcat</li><li>WebLogic</li><li>ChatGPT</li><li>Copilot</li></ul></div>
+  </section>
+
+  <section id="experience">
+    <h2>Professional experience</h2>
+    <div class="card">
+      <h3>System Engineer, Property and Claims Test Support</h3>
+      <p class="org">Tata Consultancy Services · Hyderabad · Client: USAA</p>
+      <p class="when mono">April 2026 – Present</p>
+      <ul class="pts">
+        <li>End-to-end flow testing and validation for Property and Claims applications.</li>
+        <li>Trace transactions through Kibana logs and Mainframe to validate backend processing and troubleshoot failures.</li>
+        <li>Cross-browser, functional and regression testing with Sauce Labs.</li>
+        <li>Validate Conversant and other upstream and downstream integrations; find transaction failures and data inconsistencies.</li>
+        <li>Work with dev and support teams on defects, RCA and retesting within SLAs.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>System Engineer, L2 Production Support, Core Banking</h3>
+      <p class="org">Tata Consultancy Services · Chennai · Client: USAA</p>
+      <p class="when mono">November 2022 – April 2026</p>
+      <ul class="pts">
+        <li>L2 support for a Java-based core banking application in a high-availability environment.</li>
+        <li>Monitored health and handled incidents with Kibana, Splunk, Grafana, Datadog and OpenShift.</li>
+        <li>Resolved Tomcat and WebLogic issues before they reached customers; joined major incident calls to restore service within SLA.</li>
+        <li>Log analysis, root cause identification and corrective actions.</li>
+        <li>Scheduled and monitored business-critical batch jobs in Control-M.</li>
+        <li>Problem management, change requests and deployment validation under ITIL; MySQL tuning with DBAs.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Assistant System Engineer, Java Developer</h3>
+      <p class="org">Tata Consultancy Services · Hyderabad · Client: Macy’s</p>
+      <p class="when mono">November 2021 – November 2022</p>
+      <ul class="pts">
+        <li>Java and front-end developer trainee on Macy’s Merchant Tools, a retail application for the online platform.</li>
+        <li>Updated code for Jira stories and built UI pages to improve usability.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card"><span class="tag mono">Insurance</span><h3>USAA Property and Claims</h3><p>Test support for end-to-end flows across legacy and modern applications.</p></div>
+      <div class="card"><span class="tag mono">Banking</span><h3>USAA Core Banking</h3><p>Production support for a core banking application serving banking, financial services and insurance customers.</p></div>
+      <div class="card"><span class="tag mono">Retail</span><h3>Macy’s Merchant Tools</h3><p>Front-end work creating and improving UI pages for the Macy’s online platform.</p></div>
+    </div>
+  </section>
+
+  <section id="recognition">
+    <h2>Recognition and education</h2>
+    <div class="grid">
+      <div class="card"><h3>Achievements</h3><ul class="pts"><li>On-the-Spot Award, 4 times</li><li>Star of the Team Award</li><li>Xcelerate Warrior, TCS</li></ul></div>
+      <div class="card"><h3>Certification</h3><ul class="pts"><li>Microsoft Certified: Azure AI Fundamentals (AI-900)</li></ul></div>
+      <div class="card"><h3>Education</h3><ul class="pts"><li>B.Tech, Civil Engineering, Jawaharlal Nehru Technological University, Kakinada</li></ul></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p style="color:var(--mute);margin-top:-12px">Open to conversations about production support, test engineering and backend roles.</p>
+    <dl class="ct">
+      <dt>Email</dt><dd><a href="mailto:divyakanth.tirumalasetty@gmail.com">divyakanth.tirumalasetty@gmail.com</a></dd>
+      <dt>Phone</dt><dd><a href="tel:+917396409060">+91 7396409060</a></dd>
+      <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/divyakanth-tirumalasetty" target="_blank" rel="noopener">divyakanth-tirumalasetty</a></dd>
+      <dt>GitHub</dt><dd><a href="https://github.com/kanthdk" target="_blank" rel="noopener">kanthdk</a></dd>
+      <dt>Location</dt><dd>Hyderabad, Telangana, India</dd>
+    </dl>
+    <form id="cf">
+      <label for="n">Name</label><input id="n" required>
+      <label for="e">Email</label><input id="e" type="email" required>
+      <label for="s">Subject</label><input id="s" required>
+      <label for="m">Message</label><textarea id="m" required></textarea>
+      <button class="btn fill" type="submit">Send message</button>
+    </form>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="y">2026</span> Divyakanth Tirumalasetty</div></footer>
+<button class="ib" id="up" aria-label="Back to top">↑</button>
+<script>
+var r=document.documentElement,t=null;
+try{t=localStorage.getItem('theme')}catch(e){}
+if(!t)t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';
+r.dataset.theme=t;
+document.getElementById('theme').onclick=function(){t=t==='dark'?'light':'dark';r.dataset.theme=t;try{localStorage.setItem('theme',t)}catch(e){}};
+var b=document.getElementById('burger'),mn=document.getElementById('menu');
+b.onclick=function(){var o=mn.classList.toggle('open');b.setAttribute('aria-expanded',o)};
+mn.onclick=function(){mn.classList.remove('open');b.setAttribute('aria-expanded',false)};
+var up=document.getElementById('up');
+addEventListener('scroll',function(){up.classList.toggle('show',scrollY>600)});
+up.onclick=function(){scrollTo({top:0})};
+document.getElementById('cf').onsubmit=function(ev){ev.preventDefault();
+ var v=function(i){return document.getElementById(i).value};
+ location.href='mailto:divyakanth.tirumalasetty@gmail.com?subject='+encodeURIComponent(v('s'))+'&body='+encodeURIComponent(v('m')+'\n\nFrom: '+v('n')+' ('+v('e')+')')};
+document.getElementById('y').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
